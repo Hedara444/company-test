@@ -9,7 +9,7 @@ This is the backend part of the My Project application, built with Laravel.
 ## Installation
  1. Clone the repository
  ```
- git clone 
+ git clone  https://github.com/Hedara444/company-test.git
  ```
  2. Navigate to the backed directory
 
