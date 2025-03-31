@@ -1,0 +1,60 @@
+.companyList {
+    list-style-type: none;
+    padding: 0;
+    overflow-x: hidden;
+    transition:  0.3s;
+}
+
+.companyItem {
+    padding: 5px;
+    border: 1px solid #303030;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.companyItem:hover {
+    background-color: #505050;
+}
+
+
+/* CompanyList.module.css */
+.scrollContainer {
+    height: 200px;
+    overflow-y: auto;
+    padding-right: 8px;
+}
+
+.loadingText {
+    color: #666;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .companyItem {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+
+    .selectedCompany {
+        font-size: 0.9rem;
+    }
+    .scrollContainer {
+        height: 200px;
+        overflow-y: auto;
+        padding-right: 8px;
+    }
+
+    .loadingText {
+        color: #666;
+        text-align: center;
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+}
