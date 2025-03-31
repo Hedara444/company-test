@@ -1,5 +1,6 @@
 # Company Frontend
-This is the frontend part of the My Project application, built with Laravel.
+This is the frontend part of the My Project application, built with React js.
+
 
 ----
 ## Prerequisites
